@@ -1,0 +1,178 @@
+.basket-form__delivery {
+    border-radius: 16px;
+    padding: 15px 25px 21px 24px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.delivery-content__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.delivery__header--title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-text);
+}
+
+.header--edit-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(203, 17, 171, 1);
+    cursor: pointer;
+
+    transition: all .15s ease-in-out;
+}
+
+.header--edit-text:hover {
+    color: rgba(151, 151, 175, 1);
+}
+
+
+.way--point__street {
+    display: flex;
+}
+
+.point__street--address {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+    margin-right: 78px;
+}
+
+.point__street--data {
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+}
+
+.office-hours {
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-text);
+    margin-left: 16px;
+}
+
+.office-hours--star {
+    position: absolute;
+    left: -16px;
+    top: 2px;
+}
+
+.content__way--cost {
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.way--cost__order {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+    margin-right: 32px;
+}
+
+
+.content__way--list {
+    margin-top: 16px;
+}
+
+.way--list_item {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.way--list_item+.way--list_item {
+    margin-bottom: 24px;
+}
+
+.way__info-date {
+    margin-right: 82px;
+}
+
+.info-date__approximate-date {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+}
+
+.way__photos {
+    display: flex;
+}
+
+.way-delivery__photo {
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+    background-size: cover;
+    width: 40px;
+    height: 56px;
+
+}
+
+.delivery__photo--count {
+    position: absolute;
+    padding: 1px 4px 2px 4px;
+    top: -7px;
+    right: -4px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+    min-width: 16px;
+    height: 16px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(245, 81, 35, 1);
+}
+
+.way-delivery__photo--img {
+    border-radius: 8px;
+}
+
+
+.delivery-content__reverse {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.content__reverse--text {
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.content__reverse--green-text {
+    position: relative;
+    color: rgba(12, 180, 119, 1);
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-bottom: 1px;
+}
+
+.content__reverse--green-text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px dashed rgba(12, 180, 119, 0.2);
+    width: 100%;
+    height: 1px;
+}

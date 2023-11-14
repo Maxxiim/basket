@@ -1,0 +1,120 @@
+@media(max-width:1024px) {
+
+    /* header start */
+
+    .header-search__input {
+        font-size: 16px;
+    }
+
+    .basket-form__content {
+        width: 640px;
+        margin-right: 32px;
+    }
+
+    .nav-element__logo {
+        line-height: 23px;
+        letter-spacing: 0.1px;
+    }
+
+    .navbar__item--profile {
+        margin-right: 38px;
+    }
+
+    .navbar__item--basket {
+        margin-right: 38px;
+    }
+
+    .navbar__item+.navbar__item {
+        margin-right: -19px;
+    }
+
+    /* header end */
+
+    /* content start */
+    .basket-form__content {
+        padding-top: 27px;
+    }
+
+    .total__counter--wrapper {
+        padding: 9px 0 12px 8px;
+    }
+
+    .total__counter--warning {
+        margin: 9px 0;
+        padding-left: 3px;
+    }
+
+    .total--price__new-price--max {
+        letter-spacing: -0.5px;
+    }
+
+    .good--info-properties {
+        margin-top: 0;
+    }
+
+    .basket-product-cards+.basket-product-cards {
+        margin-bottom: 25px;
+    }
+
+    /* content end */
+
+    /* absent start */
+
+    .basket-form__absent {
+        margin-top: 39px;
+    }
+
+    /* delivery start */
+
+    .basket-form__delivery {
+        padding-top: 10px;
+    }
+
+    /* pay start*/
+
+    .basket-form__pay {
+        padding-top: 21px;
+    }
+
+    .header--edit-text {
+        line-height: 32px;
+    }
+
+    /* recipient start */
+
+    .input--name,
+    .input--surname {
+        width: 280px;
+    }
+
+    .input--email,
+    .input--phone,
+    .input--inn {
+        width: 180px;
+    }
+
+    .recipient-group__row--inn--text {
+        line-height: 19px;
+    }
+
+    /* footer */
+
+    .footer__wrapper {
+        padding-top: 38px;
+        padding-left: 44px;
+        padding-bottom: 24px;
+    }
+
+    /* basket order  start*/
+    .basket-order {
+        width: 303px;
+        padding-top: 8px;
+    }
+}
+
+@media (max-width:320px) {
+    .container{
+        max-width: 368px;
+        padding: 0 24px;
+    }
+}

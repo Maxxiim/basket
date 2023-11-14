@@ -1,0 +1,16 @@
+.footer {}
+
+.container {}
+
+.footer__wrapper {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__wrapper--text {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
